@@ -6,21 +6,12 @@
 
 ---
 
+
 ## Schema Overview
 
-```
-student(id, name, dept_name, tot_cred)
-instructor(id, name, dept_name, salary)
-course(course_id, title, dept_name, credits)
-takes(id, course_id, sec_id, semester, year, grade)
-teaches(id, course_id, sec_id, semester, year)
-section(course_id, sec_id, semester, year, building, room_number, time_slot_id)
-classroom(building, room_number, capacity)
-department(dept_name, building, budget)
-advisor(s_id, i_id)
-prereq(course_id, prereq_id)
-time_slot(time_slot_id, day, start_hr, start_min, end_hr, end_min)
-```
+<p align="center">
+  <img src="university-schema.png" width="100%">
+</p>
 
 ---
 
